@@ -1,4 +1,2 @@
 jdk:
 - openjdk9
-before_install:
-- export JAVA_HOME=/usr/lib/jvm/java-9-oracle
