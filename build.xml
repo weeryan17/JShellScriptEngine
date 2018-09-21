@@ -10,11 +10,11 @@
 
 	<target name="compile">
 		<mkdir dir="build"/>
-		<javac srcdir="src" destdir="build" classpathref="classpath" source="1.8" target="1.8"/>
+		<javac srcdir="src" destdir="build" classpathref="classpath" source="1.9" target="1.9"/>
 		<copy todir="build">
 			<fileset dir="resources" excludes="**/*.java"/>
 		</copy>
-		<javac srcdir="test" destdir="build" classpathref="classpath" source="1.8" target="1.8"/>
+		<javac srcdir="test" destdir="build" classpathref="classpath" source="1.9" target="1.9"/>
 	</target>
 
 	<target name="jar" depends="compile">
