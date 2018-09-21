@@ -22,13 +22,6 @@
 		<mkdir dir="dist"/>
 		<jar destfile="dist/jshellscriptengine.jar" basedir="build">
 			<fileset dir="build"/>
-			<restrict>
-				<archives>
-					<zips>
-						<fileset dir="lib" includes="**/*.jar"/>
-					</zips>
-				</archives>
-			</restrict>
 		</jar>
 	</target>
 
